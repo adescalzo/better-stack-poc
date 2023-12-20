@@ -1,0 +1,26 @@
+@LoggingExample_HostAddress = http://localhost:5169
+
+GET {{LoggingExample_HostAddress}}/
+Accept: application/json
+
+###
+
+GET {{LoggingExample_HostAddress}}/debug/
+Accept: application/json
+
+###
+
+GET {{LoggingExample_HostAddress}}/info/
+Accept: application/json
+
+###
+
+GET {{LoggingExample_HostAddress}}/warning/
+Accept: application/json
+
+###
+
+GET {{LoggingExample_HostAddress}}/error/
+Accept: application/json
+
+###
